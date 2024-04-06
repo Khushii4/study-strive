@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link  href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+.main{
+
+    overflow-x: hidden;
+}
+    .swiper{
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .swiper::-webkit-scrollbar{
+        display: none;
+    }
+    .trackbox{
+        display: none;
+    }
+    .focusbox {
+        display: none;
+    }
+    .helpbox{
+        display: none;
+    }
+    
+</style>
+<body>
+    <div class="main w-screen h-screen">
+<div class="nav text-white flex items-center justify-between bg-blue-500 px-[3vw] w-screen h-[4vw] " >
+    <h1 class=" text-2xl text-zinc-800 " >StudyStrive </h1>  
+    <div class="flex gap-[4vw]" >
+        <h2 class="text-xl text" >Home</h2>
+       
+        <div>
+             <h2 onclick="track()" class="tracker text-xl text " >Tracker</h2>
+             <div  class="trackbox   absolute top-[8%] left-[43%] w-[10vw] h-[10vw] bg-blue-500   flex-col gap-2 items-center justify-center text-lg" >
+                <h3>Daily screen time </h3>
+                <h3>Daily progress</h3>
+                <h3>Goal set</h3>
+            </div>
+        </div>
+            <div>
+                <h2  class="focus text-xl text" >focus mode </h2>
+                <div  class="focusbox   absolute top-[8%] left-[53%] w-[10vw] h-[10vw] bg-blue-500   flex-col gap-2 items-center justify-center text-lg" >
+                    <h3> block website  </h3>
+                    <h3>Daily progress</h3>
+                    <h3>Personalize</h3>
+                </div>
+            </div>
+        
+           <div>
+            <h2 class="help text-xl text" >help</h2>
+            <div  class="helpbox   absolute top-[8%] left-[62%] w-[10vw] h-[10vw] bg-blue-500   flex-col gap-2 items-center justify-center text-lg" >
+                <h3> FAQS  </h3>
+                <h3>contact</h3>
+                
+            </div>
+           </div>
+       
+    </div>
+  
+   <a href="user.html">
+    <div class="h-[2vw] w-[2vw] bg-zinc-700 flex items-center justify-center rounded-full" >
+        <i class="ri-user-line  text-white text-xl font-[400]"></i>
+    </div>
+   </a>
+</div>
+<div class="w-screen h-[40vw] bg-blue-200 " >
+  <div class="swiper w-full h-full flex gap-[2vw] px-[4vw]" > 
+    
+    <div class="w-full h-full  flex items-center justify-center" >
+        <div class="w-[50vw] h-[30vw] bg-red-300 " >
+            <img class="w-full h-full object-cover" src="https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/Image056a-1686663441732.jpg?mode=crop&crop=faces&ar=2:1?width=1200&q=75" alt="">
+        </div>
+    </div>
+    <div class="w-full h-full  flex items-center justify-center" >
+        <div class="w-[50vw] h-[30vw] bg-red-300 " >
+            <img class="w-full h-full object-cover" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4umjrzOcPGFb1WjSq7hRlg.png" alt="">
+        </div>
+    </div>
+
+    <div class="w-full h-full  flex items-center justify-center" >
+    <div class="w-[50vw] h-[30vw] bg-red-300 " >
+        <img class="w-full h-full object-cover" src="https://i.pinimg.com/236x/b4/cf/1e/b4cf1efcecf26a5ce6b70d116e98f6f6.jpg" alt="">
+    </div>
+</div>
+<div class="w-full h-full  flex items-center justify-center" >
+    <div class="w-[50vw] h-[30vw] bg-red-300 " >
+        <img class="w-full h-full object-cover" src="https://i.pinimg.com/236x/90/35/bf/9035bf9f6a996d9468683257215158c7.jpg" alt="">
+    </div>
+</div>
+<div class="w-full h-full  flex items-center justify-center" >
+    <div class="w-[50vw] h-[30vw] bg-red-300 " >
+        <img class="w-full h-full object-cover" src="https://i.pinimg.com/236x/19/39/b7/1939b716914f45b4279289a9783475f9.jpg" alt="">
+    </div>
+</div></div>
+</div>
+
+<div class="w-screen h-screen bg-blue-200 " >
+<div class="boxes flex flex-wrap gap-[7vw] px-[20vw] py-[2vw]  w-screen h-[40vw] items-center justify-center">
+
+    <a href="https://activitywatch.net/img/screenshots/screenshot-v0.9.3-activity.png"> <div  class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+        <h2>Track daily <br> screen time </h2>
+    </div></a>
+    <a href="https://www.smartsheet.com/sites/default/files/IC-Daily-Progress-Tracker-Template.png"> <div class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+        <h2>Daily progress</h2>
+    </div></a>
+    <a href="https://www.4menearme.com/wp-content/uploads/2023/10/Goal-Tracker-788x745.jpg"> 
+        <div class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+        <h2>Goals set </h2>
+    </div>
+</a>
+    <a href="https://lh3.googleusercontent.com/BS75IBP8l6XVTdG2Ofuvsb3Z9cz3lIGpgs3O0PyV_UwIcOyqIZJI2Adp6o4wQBHYrXm8XunE6FTfjxgvRtDC_AiZJJk=w640-h400-e365-rj-sc0x00ffffff"> <div class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+        <h2> Website blocker </h2>
+    </div></a>
+   <a href="https://malwaretips.com/blogs/wp-content/uploads/2022/12/Notification-Blocker-Microsoft-Edge-Extension.jpg"> <div class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+    <h2>Notification blocker</h2>
+   </div></a>
+   <a href="https://lh3.googleusercontent.com/FP4iHIgKSlT8sQs3-D_NXofJTadSOIOXZkzDifI7L8Ct_C4eLxg3cPCFxn7asBGRUDVXQKc94U6-9mMhtIXyl2vUag=s1280-w1280-h800"> <div class="b w-[15vw] h-[15vw] bg-zinc-400 flex items-center justify-center rounded"  >
+    <h2>Personalize the time </h2>
+   </div></a>
+   
+</div>
+</div>
+<div class="footer w-screen h-[17vw] bg-blue-200 " > 
+    <div  class="capitalize text-3xl px-[5vw]  ">
+        
+        <h1>StudyStrive </h1>
+    </div>
+    <div id="vast"  class="flex items-center justify-between py-[4vw] px-[6vw] ">
+       
+        <div class="flex flex-col gap-[2vw]" >
+            <h4>ABOUT US</h4>
+            <h4>COMMUNITY GUIDELINES</h4>    
+        </div>
+        <div class="flex flex-col gap-[2vw]" >
+            <h4>CONTACT US</h4>
+            <h4>PRIVACY POLICY</h4>     
+        </div>
+        <div class="flex flex-col gap-[2vw]" >
+            <h4>FAQS</h4>
+            <h4>Bookmarks</h4>
+        </div>
+        <divc class="flex flex-col gap-[2vw]" >
+            <h4>TERMS TO USE</h4>
+            <h4>FEEDBACK</h4>
+        </div>
+        
+
+ <div class="flex  text-center  justify-center items-center gap-[2vw]  px-[10vw]" >
+    <h2>FOLLOW US ON :- </h2>
+    <div class="flex gap-[2vw] ">
+        <a href="#"><i class="ri-facebook-line"></i></a>
+        <a href="#"><i class="ri-messenger-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-line"></i></a>
+        
+    </div>
+
+
+</div>
+</div>
+</div>
+   
+
+
+
+</div>
+
+    <script>
+       var trackbox =  document.querySelector(".trackbox")
+  
+    function track(){
+        if(trackbox.style.display ==="flex"){
+            trackbox.style.display="none"
+        }
+        else{
+            trackbox.style.display="flex" 
+           
+        }
+
+    }
+    var focusbox = document.querySelector(".focusbox")
+   
+    document.querySelector(".focus").addEventListener("click",function(){
+        if(focusbox.style.display ==="flex"){
+            focusbox.style.display="none"
+        }
+        else{
+           focusbox.style.display="flex" 
+           
+        }
+    })
+   var helpbox = document.querySelector(".helpbox")
+    document.querySelector(".help").addEventListener("click",function(){
+        if(helpbox.style.display ==="flex"){
+            helpbox.style.display="none"
+        }
+        else{
+           helpbox.style.display="flex" 
+           
+        }
+    })
+      </script>
+</body>
+</html>
